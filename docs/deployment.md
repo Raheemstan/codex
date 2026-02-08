@@ -4,6 +4,7 @@
 - Multi-stage builds for API and frontend.
 - Environment variables for secrets (Paystack, JWT, DB).
 - Health checks for API and realtime services.
+  - Use `PAYLOAD_DEMO_MODE=true` to switch the database URL to `PAYLOAD_DEMO_DATABASE_URL`.
 
 ## Cloud
 - AWS: ECS/Fargate + RDS + S3.
