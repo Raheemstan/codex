@@ -1,0 +1,19 @@
+{
+  "name": "medconsult-blueprint",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "payload:dev": "payload dev",
+    "payload:build": "payload build",
+    "seed": "node -r ts-node/register src/payload/seed.ts"
+  },
+  "dependencies": {
+    "payload": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
